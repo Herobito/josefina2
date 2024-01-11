@@ -1,0 +1,45 @@
+
+@media only screen and (max-width: 767px) {
+    body.device-mobile-optimized:not(.responsive) #SITE_CONTAINER {
+        margin: 0 auto; /* Centra horizontalmente solo en dispositivos móviles */
+        overflow-x: visible;
+        position: relative;
+        width: 100%; /* Ancho completo en dispositivos móviles */
+    }
+
+    body.device-mobile-optimized:not(.responsive):not(.blockSiteScrolling) #SITE_CONTAINER {
+        margin-top: 0;
+    }
+}
+        
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./imagenes/detailed_hand_painted_pink_watercolour_background_0509.jpg"); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Esto asegura que la imagen se ajuste al tamaño del área de fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    align-items: center;
+}
+
+.container{
+    max-width: 1920px; /* Establece el ancho máximo del contenido */
+    margin: 0 auto; /* Centra el contenido en la página */
+    padding: 20px;
+}
+
+.marip {
+    width: 60%; /* Puedes cambiar el valor según tus necesidades */
+    height: 20%;
+    margin: -50px 120 0; /* Ajusta hacia arriba y centra horizontalmente */
+  }
+
+.marip2{
+
+        width: 60%; /* Reducir el ancho de la imagen al 60% del contenedor */
+        margin: -50px -20% 0; /* Ajusta hacia arriba y centra horizontalmente con un margen del 20% a la izquierda y derecha */
+        /* transform: scaleX(-1); Invierte la imagen horizontalmente */
+      
+      
+}
+
